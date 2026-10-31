@@ -1,0 +1,59 @@
+.place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.7vh;
+  background-color: #f0f8ff;
+  flex-direction: column;
+}
+
+.content {
+  text-align: center;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.celebration-animation {
+  width: 250px;
+  height: 300px;
+  border: none;
+}
+
+.congrats-text {
+  font-size: 2rem;
+  color: #2c7a7b;
+  animation: popIn 0.8s ease-out;
+  margin-top: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.content{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+ 
+ 
+}
+.content h1{
+    
+        margin-left: -190px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+
+    
+}

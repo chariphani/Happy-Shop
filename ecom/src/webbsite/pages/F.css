@@ -1,0 +1,8 @@
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+      row-gap: 30px;
+    column-gap: 30px;
+   flex-wrap: wrap;
+     padding: 70px 0px;
+}

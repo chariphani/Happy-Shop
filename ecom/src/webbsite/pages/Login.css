@@ -1,0 +1,101 @@
+.login-container{
+  background: linear-gradient(-45deg, #D2E0FB, #FEF9D9, #DEE5D4, 
+#8EACCD);
+  background-size: 400% 400%;
+  animation: gradientBG 4s ease infinite;
+  height: 91.8vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh;
+   
+   
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.login-form{
+    width: 25%;
+  
+    padding: 25px;
+    height: 50vh;
+   
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+}
+.ss{
+     border: none;
+}
+
+
+#yy {
+  font-size: 100px;
+  font-weight: bold;
+  display: inline-block;
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+  background-size: 800% 800%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+
+  animation: rainbowText 6s ease infinite;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@keyframes rainbowText {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rm{
+
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+}
+@media (max-width: 768px) {
+.login-form{
+    width: 100% !important;
+  
+    padding: 25px;
+    height: 35vh !important;
+   
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+}
+
+  .login-container {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .rm {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #yy {
+    font-size: 40px;
+  }
+}

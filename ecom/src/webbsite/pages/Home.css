@@ -1,0 +1,16 @@
+.catg a {
+    text-decoration: none;
+   
+} 
+.ap h1{
+    /* border:  1px solid #000; */
+    padding: 10px;
+}
+.r h1{
+    padding: 10px;
+}
+.mmm{
+      background-color: #f4f6f8; 
+  color: #1a1a1a;
+  min-height: 100vh;
+}

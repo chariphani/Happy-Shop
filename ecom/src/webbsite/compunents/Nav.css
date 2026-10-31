@@ -1,0 +1,22 @@
+.ll ul li a{
+    
+    text-decoration: none;
+}
+.lllo {
+  background-color: #232F3E !important;
+  color: white !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+.ll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+
+  list-style: none;
+}
